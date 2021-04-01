@@ -1,0 +1,13 @@
+figure{
+    height: 200px;
+    overflow: hidden;
+}
+
+.card-img-top{
+    height: 200px;
+    transition: all 0.20s linear;
+}
+
+.card-img-top:hover{
+    transform: scale(1.3);
+}
