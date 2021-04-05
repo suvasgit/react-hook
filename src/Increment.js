@@ -8,8 +8,8 @@ const Increment=()=> {
     return (
         <>
            <h1>{count}</h1> 
-           <button onClick={()=>count <50 && setCount(count+1)}>Click to increase</button>
-           <button onClick={()=>count >0 && setCount(count-1)}>Click to increase</button>
+           <button onClick={()=>count <50 && setCount(count+1)}>Click to Increase</button>
+           <button onClick={()=>count >0 && setCount(count-1)}>Click to Decrease</button>
         </>
     )
 }
